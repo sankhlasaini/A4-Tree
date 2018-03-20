@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.ui-tree {
+    width: 100%;
+}
+
+.my-tree .ui-treenode-content {
+    padding: 10px;
+}
+
+.ui-tree .ui-chkbox .ui-chkbox-icon {
+    color: dimgray;
+}
+
+.my-tree .ui-treenode-content:hover {
+    background: whitesmoke;
+}
+
+.my-tree .ui-treenode-children {
+    margin-left: 10px;
+}
+
+.my-tree .ui-tree-toggler {
+    color: dimgray;
+    margin: 5px;
+}
+
+.ui-widget-content {
+    border: none;
+}
+
+.ui-state-highlight {
+    background: initial;
+    color: dimgray;
+    font-weight: bold !important;
+}
